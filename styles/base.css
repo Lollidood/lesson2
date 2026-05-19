@@ -1,6 +1,4 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: border-box;
 }
 
@@ -22,9 +20,9 @@
     font-weight: 500;
 }
 
-html,
-body {
+html, body {
     margin: 0;
+    background-color: #ffffff;
     color: #111111;
     font-family: "Roboto", sans-serif;
 }
